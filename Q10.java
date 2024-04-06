@@ -18,6 +18,9 @@ public class Q10 {
 		catch(ArithmeticException e) {
 			System.out.println("Error:- The number inpted should not be multiple of PI/2");
 		}
+catch(Exception e){
+  System.out.println("Error:- Invalid input or any unknown error occured")
+}
 	}
 
 }
